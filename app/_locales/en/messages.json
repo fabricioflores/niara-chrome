@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "niara chrome",
+    "message": "Niara Inc.",
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "niara plugin",
+    "message": "Plugin for Niara",
     "description": "The description of the application"
   }
 }
