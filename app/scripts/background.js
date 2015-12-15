@@ -13,6 +13,8 @@ searchOnNiara = function (word) {
   chrome.storage.sync.get(['niaraUrl'], function (items) {
     if (items.niaraUrl) {
       endpointUrl = items.niaraUrl;
+    } else {
+      chrome.runtime.openOptionsPage();
     }
   });
   chrome.tabs.create({ url: endpointUrl });
